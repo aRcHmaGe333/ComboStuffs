@@ -1,0 +1,6 @@
+# Ignore timestamps and common build artifacts
+.timestamps/
+node_modules/
+dist/
+*.log
+*.tmp
