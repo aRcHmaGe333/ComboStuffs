@@ -19,7 +19,7 @@ The result is a Work that is fully owned and fully accessible. The Author is com
 
 ### I. Declaration of Authorship
 
-**Author:** [AUTHOR NAME OR ENTITY]
+**Author:** archm
 
 All files, ideas, methods, systems, processes, algorithms, architectures, designs, and functional content contained in this repository, project, or body of work (the "Work") are the original creation of the Author.
 
@@ -29,11 +29,11 @@ This publication constitutes a public, timestamped, cryptographically verifiable
 
 | Proof Layer | Value |
 |---|---|
-| **Merkle Root Hash (SHA-512)** | `[INSERT ROOT HASH]` |
-| **Git Tree Hash** (`HEAD^{tree}`) | `[INSERT TREE HASH]` |
-| **RFC 3161 Timestamp Token** | `.timestamps/[HASH].tsr` |
-| **Redundant Timestamp** | `.timestamps/[HASH].ots` |
-| **Date of First Publication** | `[INSERT DATE UTC]` |
+| **Merkle Root Hash (SHA-512)** | `5cb48eb999a33255d9e782eaaea5c2091538b736` |
+| **Git Tree Hash** (`HEAD^{tree}`) | `5cb48eb999a33255d9e782eaaea5c2091538b736` |
+| **RFC 3161 Timestamp Token** | `.timestamps/5cb48eb999a33255d9e782eaaea5c2091538b736.tsr` |
+| **Redundant Timestamp** | `.timestamps/5cb48eb999a33255d9e782eaaea5c2091538b736.ots` |
+| **Date of First Publication** | `2026-05-04 UTC` |
 
 The Merkle root is a single cryptographic hash derived from the combined hashes of every file in this Work. A change to any file produces a different root. The root proves the integrity of the Work as an indivisible unit.
 
@@ -151,7 +151,7 @@ See `VERIFY.md` for the manual timestamp process and automated workflow setup.
 
 ---
 
-**© [AUTHOR NAME] — [YEAR]. All rights reserved.**
+**© archm — 2026. All rights reserved.**
 **Authorship & Patent Claim established by public record.**
 **Universal access granted under ValueFlow profit sharing.**
 
